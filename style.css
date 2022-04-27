@@ -51,7 +51,7 @@
         width: 60%;
         height: 40px;
         border: none;
-        background-color: #26a68c;
+        background-color: orangered;
         color: #FFF;
         padding: 3px;
         font-size: 16px;
@@ -70,7 +70,11 @@
         list-style:circle;
         background-color: #FFF;
         margin-top: 80px;
-        display: none;
+    }
+    .item-list p{
+        font-weight: bold;
+        text-align: center;
+        color: orangered;
     }
     .checked {
         text-decoration: line-through;
@@ -130,7 +134,7 @@
         width: 30%;
         height: 40px;
         border: none;
-        background-color: #26a68c;
+        background-color: orangered;
         color: #FFF;
         padding: 3px;
         font-size: 18px;
@@ -148,7 +152,11 @@
         color: #1c1c1c;
         list-style:circle;
         background-color: #FFF;
-        display: none;
+    }
+    .item-list p{
+        font-weight: bold;
+        text-align: center;
+        color: orangered;
     }
     .checked {
         text-decoration: line-through;
@@ -208,7 +216,7 @@
         width: 25%;
         height: 40px;
         border: none;
-        background-color: #26a68c;
+        background-color: orangered;
         color: #FFF;
         padding: 3px;
         font-size: 18px;
@@ -225,8 +233,12 @@
         color: #1c1c1c;
         list-style:circle;
         background-color: #FFF;
-        display: none;
         margin-top: 20px;
+    }
+    .item-list p{
+        font-weight: bold;
+        text-align: center;
+        color: orangered;
     }
     .checked {
         text-decoration: line-through;
@@ -287,7 +299,7 @@
         width: 25%;
         height: 40px;
         border: none;
-        background-color: #26a68c;
+        background-color: orangered;
         color: #FFF;
         padding: 3px;
         font-size: 18px;
@@ -304,8 +316,12 @@
         color: #1c1c1c;
         list-style:circle;
         background-color: #FFF;
-        display: none;
         margin-top: 20px;
+    }
+    .item-list p{
+        font-weight: bold;
+        text-align: center;
+        color: orangered;
     }
     .checked {
         text-decoration: line-through;

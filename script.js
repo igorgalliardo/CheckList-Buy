@@ -4,11 +4,8 @@ function resetInput(){
     let field = document.querySelector("input");
     field.value="";
 }
-function resetList(){
-    itemList = "";
-}
 
-function limiteItems(){
+function limitItems(){
   totalLi = document.querySelectorAll("li");
     qtd = totalLi.length;
 
@@ -25,29 +22,40 @@ function addItem(){
     let input = field.value;
     let input_text = document.createTextNode(input);
     document.querySelector('.item-list').style.display="block";
-
     li.appendChild(input_text);
+    //descobrir como nao aceitar valores em branco e ainda nao incluir um li vazio
+    if(input == ""){
+      alert("You cannot add null values in your list.");
+      window.li.history.back();
+      document.querySelector(".item-list").style.display="block";
+      document.querySelector("p").style.display="block";
+    }
     itemList.appendChild(li);
 
     totalLi = document.querySelectorAll("li");
     qtd = totalLi.length;
+    console.log(qtd);
 
-    if(qtd > 0 && qtd < 15){
-      document.querySelector("p").innerHTML = qtd+" Itens";
+    if(qtd == 1){
+      document.querySelector("p").innerHTML = qtd+" Item";
+      document.querySelector("p").style.color = "green";
+      document.querySelector("p").style.fontWeight = "bold";
+    }else if(qtd > 1 && qtd < 15){
+      document.querySelector("p").innerHTML = qtd+" Items";
       document.querySelector("p").style.color = "green";
       document.querySelector("p").style.fontWeight = "bold";
     }else if(qtd >= 15 && qtd < 20){
-      document.querySelector("p").innerHTML = qtd+" Itens";
+      document.querySelector("p").innerHTML = qtd+" Items";
       document.querySelector("p").style.color = "orange";
       document.querySelector("p").style.fontWeight = "bold";
     }else{
-      document.querySelector("p").innerHTML = qtd+" Itens";
+      document.querySelector("p").innerHTML = qtd+" Items";
       document.querySelector("p").style.color = "red";
       document.querySelector("p").style.fontWeight = "bold";
     }
 
     resetInput();    
-    limiteItems();
+    limitItems();
 }
 
 function createCloseButton(li) {
