@@ -1,0 +1,318 @@
+@media only screen and (max-width: 500px){
+    body{
+        margin: 0 auto;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(221, 221, 221);
+    }
+    .main-container{
+        width: 100vw;
+        height: 100%;
+        background-color: rgb(221, 221, 221);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: #1c1c1c;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    .box-list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .item-text{
+        width: 100%;
+        height: 40px;
+        margin: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .item-text input[type=text]{
+        width: 80%;
+        height: 40px;
+        padding: 3px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .item-text button{
+        width: 60%;
+        height: 40px;
+        border: none;
+        background-color: #26a68c;
+        color: #FFF;
+        padding: 3px;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .item-text p{
+        width: 80%;
+        text-align: center;
+    }
+    .item-list{
+        width: 80%;
+        padding: 20px;
+        font-size: 18px;
+        color: #1c1c1c;
+        list-style:circle;
+        background-color: #FFF;
+        margin-top: 80px;
+        display: none;
+    }
+    .checked {
+        text-decoration: line-through;
+      }
+}
+@media only screen and (min-width: 800px){
+    body{
+        margin: 0 auto;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(221, 221, 221);
+    }
+    .main-container{
+        width: 100vw;
+        height: 100%;
+        background-color: rgb(221, 221, 221);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: #1c1c1c;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    .box-list{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .item-text{
+        width: 100%;
+        height: 50px;
+        margin: 25px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .item-text input[type=text]{
+        width: 50%;
+        height: 40px;
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .item-text button{
+        width: 30%;
+        height: 40px;
+        border: none;
+        background-color: #26a68c;
+        color: #FFF;
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .item-text p{
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    .item-list{
+        width: 100%;
+        padding: 20px;
+        font-size: 18px;
+        color: #1c1c1c;
+        list-style:circle;
+        background-color: #FFF;
+        display: none;
+    }
+    .checked {
+        text-decoration: line-through;
+      }
+}
+@media only screen and (min-width: 901px){
+    body{
+        margin: 0 auto;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(221, 221, 221);
+    }
+    .main-container{
+        width: 100vw;
+        height: 100%;
+        background-color: rgb(221, 221, 221);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: #1c1c1c;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    .box-list{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .item-text{
+        width: 100%;
+        height: 50px;
+        margin: 25px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .item-text input[type=text]{
+        width: 70%;
+        height: 40px;
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .item-text button{
+        width: 25%;
+        height: 40px;
+        border: none;
+        background-color: #26a68c;
+        color: #FFF;
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .item-text p{
+        font-size: 22px;
+    }
+    .item-list{
+        width: 100%;
+        padding: 20px;
+        font-size: 18px;
+        color: #1c1c1c;
+        list-style:circle;
+        background-color: #FFF;
+        display: none;
+        margin-top: 20px;
+    }
+    .checked {
+        text-decoration: line-through;
+      }
+}
+/* ipad Mini Portrait */
+@media only screen and (width:768px) and (resolution: 163dpi) {
+    body{
+        margin: 0 auto;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(221, 221, 221);
+    }
+    .main-container{
+        width: 100vw;
+        height: 100%;
+        background-color: rgb(221, 221, 221);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: #1c1c1c;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+    }
+    .box-list{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .item-text{
+        width: 100%;
+        height: 50px;
+        margin: 25px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .item-text input[type=text]{
+        width: 70%;
+        height: 40px;
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .item-text button{
+        width: 25%;
+        height: 40px;
+        border: none;
+        background-color: #26a68c;
+        color: #FFF;
+        padding: 3px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .item-text p{
+        font-size: 22px;
+    }
+    .item-list{
+        width: 100%;
+        padding: 20px;
+        font-size: 18px;
+        color: #1c1c1c;
+        list-style:circle;
+        background-color: #FFF;
+        display: none;
+        margin-top: 20px;
+    }
+    .checked {
+        text-decoration: line-through;
+      }
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px) and (resolution: 163dpi) {
+
+}
